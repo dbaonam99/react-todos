@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.App {
+    width: 100%;
+    background-color: #D3EdF1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.box-container {
+    margin-top: 50px;
+    height: 500px;
+    width: 350px;
+    background-color: #72bfca;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.box-title {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.small-title {
+    font-size: 9px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.Todo {
+    background-color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.complete {
+    background-color: #7ec9d4;
+    color: white;
+    text-decoration: line-through;
+    border: 1px #59b7c5 solid;
+}
+.add-btn {
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px rgba(255,255,255,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 615px;
+    bottom: 140px;
+}
+.add-btn:hover {
+    background-color: #ddd;
+    box-shadow: 0px 0px 40px 3px rgba(225,225,225,1);
+}
